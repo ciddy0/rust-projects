@@ -1,0 +1,22 @@
+# Ignore Cargo build output
+target/
+
+# Ignore backup files produced by rustfmt or editors
+**/*.rs.bk
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore IDE/editor specific files
+# VS Code
+.vscode/
+# IntelliJ / CLion / RustRover
+.idea/
+# macOS metadata
+.DS_Store
+# Windows metadata
+Thumbs.db
+
+# Ignore environment or local config files
+.env
